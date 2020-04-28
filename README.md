@@ -11,7 +11,7 @@
 ## example
 
 ```js
-const dujitang = require('..');
+const dujitang = require('dujitang');
 
 (async () => {
   const data = await dujitang();
