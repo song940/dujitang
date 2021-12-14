@@ -17,7 +17,7 @@
 // };
 
 const anywayFM = async () => {
-  const response = await fetch(`http://jjying-1253470762.cossh.myqcloud.com/anyway.tab.json`);
+  const response = await fetch(`https://jjying-1253470762.cossh.myqcloud.com/anyway.tab.json`);
   let { episodes: episodesMap, quotes, settings } = await response.json();
   const episodes = Object.keys(episodesMap).map(id => {
     const [title, link] = episodesMap[id];
